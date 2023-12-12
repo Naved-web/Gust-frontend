@@ -1,0 +1,256 @@
+import { tokens } from "../theme";
+
+
+
+
+
+
+
+export const mockBarData = [
+  {
+    country: "AD",
+    "G1": 13,
+    "hot dogColor": "hsl(229, 70%, 50%)",
+    G2: 10,
+    burgerColor: "hsl(296, 70%, 50%)",
+    G3: 15,
+    kebabColor: "hsl(97, 70%, 50%)",
+    donut: 140,
+    donutColor: "hsl(340, 70%, 50%)",
+  },
+  {
+    country: "AE",
+    "G1": 17,
+    "hot dogColor": "hsl(307, 70%, 50%)",
+    G2: 14,
+    burgerColor: "hsl(111, 70%, 50%)",
+    G3: 12,
+    kebabColor: "hsl(273, 70%, 50%)",
+    donut: 29,
+    donutColor: "hsl(275, 70%, 50%)",
+  },
+  {
+    country: "AF",
+    "G1": 10,
+    "hot dogColor": "hsl(72, 70%, 50%)",
+    G2: 13,
+    burgerColor: "hsl(96, 70%, 50%)",
+    G3: 14,
+    kebabColor: "hsl(106, 70%, 50%)",
+    donut: 152,
+    donutColor: "hsl(256, 70%, 50%)",
+  },
+  {
+    country: "AG",
+    "G1": 13,
+    "hot dogColor": "hsl(257, 70%, 50%)",
+    G2: 9,
+    burgerColor: "hsl(326, 70%, 50%)",
+    G3: 13,
+    kebabColor: "hsl(110, 70%, 50%)",
+    donut: 83,
+    donutColor: "hsl(9, 70%, 50%)",
+  },
+  {
+    country: "AI",
+    "G1": 12,
+    "hot dogColor": "hsl(190, 70%, 50%)",
+    G2: 13,
+    burgerColor: "hsl(325, 70%, 50%)",
+    G3: 15,
+    kebabColor: "hsl(54, 70%, 50%)",
+    donut: 35,
+    donutColor: "hsl(285, 70%, 50%)",
+  },
+  {
+    country: "AL",
+    "G1": 8,
+    "hot dogColor": "hsl(208, 70%, 50%)",
+    G2: 11,
+    burgerColor: "hsl(334, 70%, 50%)",
+    G3: 14,
+    kebabColor: "hsl(182, 70%, 50%)",
+    donut: 18,
+    donutColor: "hsl(76, 70%, 50%)",
+  },
+  {
+    country: "AM",
+    "G1": 11,
+    "hot dogColor": "hsl(87, 70%, 50%)",
+    G2: 15,
+    burgerColor: "hsl(141, 70%, 50%)",
+    G3: 12,
+    kebabColor: "hsl(224, 70%, 50%)",
+    donut: 49,
+    donutColor: "hsl(274, 70%, 50%)",
+  },
+];
+
+
+
+export const mockLineData = [
+  {
+    id: "japan",
+    color: tokens("dark").greenAccent[500],
+    data: [
+      {
+        x: "plane",
+        y: 101,
+      },
+      {
+        x: "helicopter",
+        y: 75,
+      },
+      {
+        x: "boat",
+        y: 36,
+      },
+      {
+        x: "train",
+        y: 216,
+      },
+      {
+        x: "subway",
+        y: 35,
+      },
+      {
+        x: "bus",
+        y: 236,
+      },
+      {
+        x: "car",
+        y: 88,
+      },
+      {
+        x: "moto",
+        y: 232,
+      },
+      {
+        x: "bicycle",
+        y: 281,
+      },
+      {
+        x: "horse",
+        y: 1,
+      },
+      {
+        x: "skateboard",
+        y: 35,
+      },
+      {
+        x: "others",
+        y: 14,
+      },
+    ],
+  },
+  {
+    id: "france",
+    color: tokens("dark").blueAccent[300],
+    data: [
+      {
+        x: "plane",
+        y: 212,
+      },
+      {
+        x: "helicopter",
+        y: 190,
+      },
+      {
+        x: "boat",
+        y: 270,
+      },
+      {
+        x: "train",
+        y: 9,
+      },
+      {
+        x: "subway",
+        y: 75,
+      },
+      {
+        x: "bus",
+        y: 175,
+      },
+      {
+        x: "car",
+        y: 33,
+      },
+      {
+        x: "moto",
+        y: 189,
+      },
+      {
+        x: "",
+        y: 97,
+      },
+      {
+        x: "",
+        y: 87,
+      },
+      {
+        x: "",
+        y: 299,
+      },
+      {
+        x: "others",
+        y: 251,
+      },
+    ],
+  },
+  {
+    id: "us",
+    color: tokens("dark").redAccent[200],
+    data: [
+      {
+        x: "plane",
+        y: 191,
+      },
+      {
+        x: "helicopter",
+        y: 136,
+      },
+      {
+        x: "boat",
+        y: 91,
+      },
+      {
+        x: "train",
+        y: 190,
+      },
+      {
+        x: "subway",
+        y: 211,
+      },
+      {
+        x: "bus",
+        y: 152,
+      },
+      {
+        x: "car",
+        y: 189,
+      },
+      {
+        x: "moto",
+        y: 152,
+      },
+      {
+        x: "bicycle",
+        y: 8,
+      },
+      {
+        x: "horse",
+        y: 197,
+      },
+      {
+        x: "skateboard",
+        y: 107,
+      },
+      {
+        x: "others",
+        y: 170,
+      },
+    ],
+  },
+];
+
+
